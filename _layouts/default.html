@@ -18,7 +18,9 @@
         {{ content }}
       </div>
     </main>
-    {% include google-analytics.html %}
+    {% if jekyll.environment == "production" %}
+        {% include google-analytics.html %}
+    {% endif %}
     {% include footer.html %}
 
   </body>
