@@ -58,7 +58,7 @@ i.e. \\(x\\) and \\(y\\) are orthogonal.
 Showing \\(N(A)\\) and \\(C(A^\top)\\) are orthogonal is the same.  
 
 ## Solving \\(A\hat{x} = b\\)
-![least squared]({{ sit.url }}/pictures/least-squares/Least_Squared.PNG)
+![least squared]({{ site.url }}/pictures/least-squares/Least_Squared.PNG)
 <p align="center" font-size="4">A helpful picture to see what's happening</p>
 
 
