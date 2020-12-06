@@ -5,8 +5,6 @@ date: 2017-10-07
 ---
 
 # Motivation
-Lately, I've been incredibly busy with school, even though school has only been
-in session for a week.
 Upon starting one of my combo classes, I've realized there are a bunch of basic
 graph theory ideas being utilized that I have yet to internalize, so here we are:
 doing some graph theory!

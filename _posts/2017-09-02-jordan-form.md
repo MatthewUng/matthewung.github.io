@@ -15,18 +15,18 @@ Note that JNF is not actually used for numerical purposes.
 ## A matrix in JNF
 A matrix JNF will look something like 
 \\(\begin{bmatrix}
-J_1    & 0      & \cdots & 0 \\\
-0      & J_2    & \cdots & 0 \\\
-\vdots & \vdots & \ddots & \vdots \\\
+J_1    & 0      & \cdots & 0 \\\ 
+0      & J_2    & \cdots & 0 \\\ 
+\vdots & \vdots & \ddots & \vdots \\\ 
 0      & 0      & \cdots & J_k 
 \end{bmatrix}\\) where each \\(J_i\\) is a jordan block.   
 Each jordan block \\(J_i\\) has some value \\(\lambda_i\\) down the diagonal 
 and ones above the diagonal.  
 A \\(3\times 3\\) jordan block will look like 
 \\(\begin{bmatrix}
-\lambda & 1      & 0\\\
-0       & \lambda & 1 \\\
-0       & 0      & \lambda 
+\lambda & 1      & 0\\\ 
+0       & \lambda & 1 \\\ 
+0       & 0      & \lambda  
 \end{bmatrix} \\)  
 If a linear transformation is diagonalizable, then the JNF of the transformation
 is simply the diagonalization of that matrix.  
@@ -57,9 +57,9 @@ A nilpotent transformation is a linear transforation \\(T\\) s.t.
 \\(T^n = 0\\) for some value \\(n\\).
 An example of a nilpotent matrix is 
 \\(\begin{bmatrix}
-0 & 1 & 0 & 0 \\\
-0 & 0 & 1 & 0 \\\
-0 & 0 & 0 & 0 \\\
+0 & 1 & 0 & 0 \\\ 
+0 & 0 & 1 & 0 \\\ 
+0 & 0 & 0 & 0 \\\ 
 0 & 0 & 0 & 0 
 \end{bmatrix}\\)  
 In this matrix, we see two chains: \\(e_3\mapsto e_2\mapsto e_1\mapsto 0\\)
@@ -78,10 +78,10 @@ Suppose that \\(T\\) sends everything to 0.
 Then, any basis for \\(T\\) will do, and we will have \\(dim(V)\\) chains.  
 If \\(T\\) does not send \\(V\\) to zero, then consider \\(W = T(V)\\).  
 Since \\(T\\) is nilpotent, \\(dim(W) < dim(V)\\) and we can apply the inductive 
-hypothesis to find a basis for \\(W\\):
-\\( \\{T \vec{v}_1, T^2\vec{v}_1,\ldots, T^{dim(W_1)-1}\vec{v}_1\\\
-\ \ T\vec{v}_2, T^2\vec{v}_2,\ldots, T^{dim(W_2)-1}\vec{v}_2  \\\
-\ \ \ \vdots \\\
+hypothesis to find a basis for \\(W\\):  
+\\( \\{T \vec{v}_1, T^2\vec{v}_1,\ldots, T^{dim(W_1)-1}\vec{v}_1\\\ 
+\ \ T\vec{v}_2, T^2\vec{v}_2,\ldots, T^{dim(W_2)-1}\vec{v}_2  \\\ 
+\ \ \ \vdots \\\ 
 \ \ T\vec{v}_k, T^2\vec{v}_k, \ldots, T^{dim(W_k)-1}\vec{v}_k\\}\\)
 
 Notice that each \\(T^{dim(W_i)-1}v_i\\) is in the nullspace of \\(T\\) and we can 
@@ -141,10 +141,10 @@ Since \\(T\mid_{V_i}-\lambda_i I\\) is a nilpotent map, we can find a basis for
 \\(V_i\\) in the form \\( \vec{v},\ T\vec{v},\ T^2\vec{v},\ \ldots,\ T^{n-1}\vec{v}\\).
 If we set this as the basis for \\(V_i,\ T\mid_{V_i}\\) will look like
 \\(\begin{bmatrix} 
-\lambda_i & 1         & 0         & \cdots & 0 \\\
-0         & \lambda_i & 1         & \cdots & 0\\\
-0         & 0         & \lambda_i & \cdots & 0 \\\
-\vdots    &  \vdots   & \vdots    & \ddots & \vdots\\\
+\lambda_i & 1         & 0         & \cdots & 0 \\\ 
+0         & \lambda_i & 1         & \cdots & 0\\\ 
+0         & 0         & \lambda_i & \cdots & 0 \\\ 
+\vdots    &  \vdots   & \vdots    & \ddots & \vdots\\\ 
 0         & 0         &  0        & \cdots & \lambda_i  
 \end{bmatrix}\\)  
 
@@ -156,10 +156,10 @@ By choosing a basis for each \\(V_i\\) composed of the generalized eigenvectors,
 we can construct a basis for \\(V\\) s.t. the linear transformation \\(T\\)
 can be represented in matrix form as
 \\(\begin{bmatrix}
-J_1 & 0 & \cdots & 0 \\\
-0   & J_2 & \cdots & 0\\\
-\vdots & \vdots & \ddots & \vdots \\\
-0      &   0    &   \cdots& J_k 
+J_1 & 0 & \cdots & 0 \\\ 
+0   & J_2 & \cdots & 0\\\ 
+\vdots & \vdots & \ddots & \vdots \\\ 
+0      &   0    &   \cdots& J_k  
 \end{bmatrix}\\)
 which is the JNF of the linear transformation.
 

@@ -4,9 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Hello all.
-I am a current UCSD student studying mathematics and computer science.
-My current interests revolve around pure mathematics and theoretical computer science.
-This blog is meant to collect my thoughts on various subjects.
+Hi!
+I am currently working as a software engineer in the SF Bay Area.  
+My interests revolve around mathy, computer-sciency, and possibly other diverse flavor-of-the-month topics that I stumble upon.
+This blog is meant to collect and foster my own thoughts, and to share ideas of values to those who are interested.
 
-$$ a^2+b^2=c^2$$
+
+Matthew Ung
