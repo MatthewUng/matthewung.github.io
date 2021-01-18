@@ -99,7 +99,7 @@ The only subgroups of \\(D_n\\) that contains this conjugacy class, but not all 
 \\(\langle x^2,\\ y\rangle\\) and \\(\langle x^2,\\ xy\rangle\\) which are normal because they have index 2.
 
 
-## Semi-Direct Product
+## Semidirect Product
 Throughout this discussion, we used the fact that every element of \\(D_n\\) is some combination of rotations and possibly a reflection.
 Restated, every element of \\(D_n\\) can be simplified to a form \\(x^iy^j\\) containing at most one reflection \\(y\\) where \\(0\leq i<n,\\ 0\leq j\leq 1\\) by using the equality \\(yx^i = x^{-i}y\\).
 This notion can be formalized using the semi-direct product \\(D_n \cong C_n\rtimes C_2\\).
@@ -117,7 +117,3 @@ Explicitly, \\(\varphi\\) is defined by \\(\varphi_0(x^i) = x^i\\) and \\(\varph
 
 i.e. Multiplying \\((x^iy)(x^j) = x^{i-j}y\\) can be thought of as the multiplication between elements of the semi-direct product:
 \\((i, 1)(j, 0) = (i+\varphi_1(j), 1+0) = (i-j, 1)\\).
-
-
-
-
