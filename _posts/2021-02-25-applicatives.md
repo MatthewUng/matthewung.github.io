@@ -108,7 +108,7 @@ Suppose \\(\mathcal{C}\\) is some category.
 Along with basic requirements of being a category, \\(\mathcal{C}\\) has a binary operation that acts on pairs of objects in \\(\mathcal{C}\\) and some unit object \\(1\_\mathcal{C}\\) that will act as our "identity".  
 Unlike our earlier examples of monoids, categories do not have a notion of equality.  
 Instead the notion of "equality" is captured through isomorphisms.
-For instance, the binary operations of a monoid to be associative, so we expect \\(a\otimes (b \otimes c)\simeq (a\otimes b)\otimes c\\), which is exactly one of the rules of a monoidal category.
+For instance, the binary operations of a monoid is associative, so we expect \\(a\otimes (b \otimes c)\simeq (a\otimes b)\otimes c\\), which is exactly one of the rules of a monoidal category.
 
 A **lax monoidal functor** from \\(\mathcal{C}\\) to \\(\mathcal{D}\\) is a functor between two monoidal categories that has two additional components:
 1. A morphism from \\(1\_\mathcal{D}\\) to \\(F(1\_\mathcal{C})\\)
